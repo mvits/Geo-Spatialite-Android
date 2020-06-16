@@ -1,8 +1,11 @@
+apply plugin: 'maven'
+
 buildscript {
     
     repositories {
         google()
         jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.0'
@@ -22,8 +25,3 @@ allprojects {
         jcenter()
     }
 }
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
-
