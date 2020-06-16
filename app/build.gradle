@@ -23,7 +23,7 @@ android {
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 19
         targetSdkVersion 28
 
         testApplicationId "com.geo.spatialite.test"
