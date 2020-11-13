@@ -6,7 +6,7 @@ publish {
 
     def groupProjectID = 'geospatial'
     def artifactProjectID = 'com.spatialite'
-    def publishVersionID = '1.0.0'
+    def publishVersionID = '1.0.1'
 
     userOrg = 'mvits'
     repoName = 'geospatial'
@@ -16,7 +16,7 @@ publish {
     desc = 'Spatialite Library for Android'
     website = 'https://github.com/mvits/Geo-Spatialite-Android'
 }
-    
+
 
 android {
     compileSdkVersion 28
