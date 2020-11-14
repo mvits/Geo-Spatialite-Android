@@ -24,8 +24,8 @@
 # - libxml2[2.9.8]
 # - xz[5.2.1 (5.2.3 fails)]
 # - libiconv[1.15]
-# 
-# 
+#
+#
 
 # -------------------
 LOCAL_PATH := $(call my-dir)
@@ -36,9 +36,10 @@ PROJ4_PATH := proj-4.9.3
 GEOS_PATH := geos-3.7.2
 JSONC_PATH := json-c-0.13.1
 RTTOPO_PATH := librttopo-20180125
-XML2_PATH := libxml2-2.9.8
-LZMA_PATH := xz-5.2.1
+XML2_PATH := libxml2-2.9.1
+LZMA_PATH := xz-5.1.3alpha
 ICONV_PATH := libiconv-1.15
+
 # -------------------
 include $(LOCAL_PATH)/jsqlite-20120209.mk
 include $(LOCAL_PATH)/sqlite-3220000.mk
@@ -47,7 +48,7 @@ include $(LOCAL_PATH)/proj4-4.9.3.mk
 include $(LOCAL_PATH)/geos-3.7.2.mk
 include $(LOCAL_PATH)/json-c-0.13.1.mk
 include $(LOCAL_PATH)/librttopo-1.1.0.mk
-include $(LOCAL_PATH)/libxml2-2.9.8.mk
-include $(LOCAL_PATH)/lzma-xz-5.2.1.mk
+include $(LOCAL_PATH)/libxml2-2.9.1.mk
+include $(LOCAL_PATH)/lzma-xz-5.1.3a.mk
 include $(LOCAL_PATH)/iconv-1.15.mk
 $(call import-module,android/cpufeatures)
