@@ -6,7 +6,7 @@ publish {
 
     def groupProjectID = 'geospatial'
     def artifactProjectID = 'com.spatialite'
-    def publishVersionID = '1.0.1'
+    def publishVersionID = '1.0.2'
 
     userOrg = 'mvits'
     repoName = 'geospatial'
